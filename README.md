@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Setup
 - Open the terminal on your computer
-- Navigate through directories using [change directory command (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) to where you want to clone the repository.
+- Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
 - Type the following command then press ENTER: 
   - git clone https://github.com/MarcoOquendoC/AwesomeBooksES6
 - the terminal will send to you information about your download.
