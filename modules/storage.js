@@ -1,5 +1,5 @@
 // Storage Class
-export class Storage {
+export default class Storage {
   static getBooks() {
     let books = [];
     if (localStorage.getItem('data')) {
@@ -26,5 +26,3 @@ export class Storage {
     localStorage.setItem('data', JSON.stringify(books));
   }
 }
-
-export default Storage;

@@ -1,7 +1,7 @@
 // UI Class
-import { Storage } from './storage.js';
+import Storage from './storage.js';
 
-export class UI {
+export default class UI {
   static displayBooks() {
     const books = Storage.getBooks();
     books.forEach((book) => UI.addBookToList(book));
@@ -28,5 +28,3 @@ export class UI {
     document.getElementById('author').value = '';
   }
 }
-
-export default UI;
