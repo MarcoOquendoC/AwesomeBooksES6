@@ -1,12 +1,7 @@
-import {
-  UI,
-} from './modules/ui.js';
-import {
-  Book,
-} from './modules/book.js';
-import {
-  Storage,
-} from './modules/storage.js';
+import UI from './modules/ui.js';
+import Book from './modules/book.js';
+import Storage from './modules/storage.js';
+import Time from './modules/time.js';
 
 const s1 = document.getElementById('list');
 const s2 = document.getElementById('new');
@@ -62,17 +57,13 @@ document.getElementById('addBtn').addEventListener('click', () => {
 // Event: remove book
 document.getElementById('bookList').addEventListener('click', (e) => {
   UI.removeBook(e.target);
-
   Storage.deleteBook(e.target.parentElement.previousElementSibling.textContent);
 });
 
 // Sets the datetime in website
 const fecha = document.getElementById('fecha');
-
-function setDate() {
-  const date = new Date();
-  fecha.innerHTML = date.toLocaleString('en-US');
-}
-
-setDate();
-setInterval(setDate, 1000);
+fecha.innerHTML = Time.getDate();
+const setTime = () => {
+  fecha.innerHTML = Time.getDate();
+};
+setInterval(setTime, 1000);
