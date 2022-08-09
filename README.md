@@ -1,7 +1,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 
 # Awesome books: with ES6
-- In this project, I restructure Awesome books app code. The goal is to make it more organized by using modules. While practicing the ES6 syntax.
+- This project restructures the [Awesome books](https://github.com/MarcoOquendoC/awesomeBooks.git) app code to make it more organized using modules while improving ES6 syntax skills.
 
 ## Getting Started
 To get a local copy up and running follow these simple steps.
